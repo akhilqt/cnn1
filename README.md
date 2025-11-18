@@ -1,1 +1,30 @@
-# cnn1
+# Collaborative CNN for Animal Classification
+
+This repository implements a collaborative image classification project using Convolutional Neural Networks (CNNs) in PyTorch.
+
+## Team & Datasets
+
+- **User 1**: Animals dataset (Kaggle, Anto Benedetti)  
+  - Task: classify 5 mammal categories.
+
+- **User 2**: Wild Animals dataset (Kaggle, Vishwesh Salodkar)  
+  - Task: classify wild animals in natural scenes.
+
+Each user trains a separate CNN model on their own dataset, and then we cross-test the models on the *other* dataset without sharing any raw images.
+
+## Folder Structure
+
+```text
+collaborative_cnn_animals/
+  models/      # model definitions (.py) and saved weights (.pth)
+  notebooks/   # Jupyter notebooks for training and testing
+  results/     # JSON metrics and logs
+  utils/       # helper scripts (metrics, data loaders, etc.)
+  data/        # local datasets (ignored by git)
+
+
+
+## Future Work
+
+More details about models, training, and results will be added as the project evolves.
+
