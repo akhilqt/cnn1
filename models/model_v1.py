@@ -13,7 +13,7 @@ class SimpleCNN(nn.Module):
     def __init__(self, num_classes: int):
         super(SimpleCNN, self).__init__()
 
-        # Feature extractor
+        
         self.features = nn.Sequential(
             # Block 1
             nn.Conv2d(3, 32, kernel_size=3, padding=1),
@@ -34,10 +34,10 @@ class SimpleCNN(nn.Module):
             nn.MaxPool2d(2),  # 28 x 28
         )
 
-        # Global average pooling
+        
         self.avgpool = nn.AdaptiveAvgPool2d((1, 1))
 
-        # Classifier
+        
         self.classifier = nn.Sequential(
             nn.Linear(128, 256),
             nn.ReLU(inplace=True),
