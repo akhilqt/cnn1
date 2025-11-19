@@ -1,4 +1,4 @@
-# Collaborative CNN Project
+# Cross-Dataset CNN Collaboration
 
 This repository contains the final code and results for a two-user CNN classification project.  
 The goal is to demonstrate correct GitHub collaboration using **forks, branches, pull requests, issues** and **cross-evaluation** of models trained on different datasets.
@@ -8,16 +8,16 @@ The goal is to demonstrate correct GitHub collaboration using **forks, branches,
 ## 1. GitHub Workflow (Required Deliverables)
 
 ### • Base Repository (User 1)
-https://github.com/Saikat-rpr/cnn1
+https://github.com/Saikat-rpr/collaborative_cnn_team07
 
 ### • User 2 Fork
-https://github.com/akhilqt/cnn1
+https://github.com/akhilqt/collaborative_cnn_team07
 
 ### • Pull Request #1 (User 1 → main)
-https://github.com/Saikat-rpr/cnn1/pull/1
+https://github.com/Saikat-rpr/collaborative_cnn_team07/pull/1
 
 ### • Pull Request #2 (User 2 → main)
-https://github.com/Saikat-rpr/cnn1/pull/2
+https://github.com/Saikat-rpr/collaborative_cnn_team07/pull/2
 
 These links show the full collaborative workflow.
 
@@ -49,7 +49,7 @@ Grad-CAM visualizations for both models are available in:
 ## 3. Repository Structure
 
 ```text
-cnn1/
+collaborative_cnn_team07/
   models/
     model_v1.py
     model_v2.py
